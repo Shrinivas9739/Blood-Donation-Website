@@ -1,6 +1,6 @@
 # Blood Donation Management System
 
-A simple web application that allows users to submit their blood donation details such as name, department, blood group, and contact information. The system stores the data in a MySQL database, helping organizations manage blood donations efficiently.
+A simple web application that allows users to submit their blood donation details such as Name, Department, Blood Group, Contact, Email, USN, Year and age information. The system stores the data in a MySQL database, helping organizations manage blood donations efficiently.
 
 ## Features
 
