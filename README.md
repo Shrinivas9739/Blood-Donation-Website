@@ -20,9 +20,9 @@ A simple web application that allows users to submit their blood donation detail
 
 Before you begin, ensure you have the following installed:
 
-- Python 3.x
-- MySQL server
-- pip (Python package installer)
+- **Python 3.x**: Install it from [python.org](https://www.python.org/downloads/)
+- **MySQL server**: Download from [MySQL](https://dev.mysql.com/downloads/installer/)
+- **pip** (Python package installer): Typically comes with Python installation.
 
 ## How it Works
 
