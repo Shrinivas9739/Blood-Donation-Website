@@ -23,6 +23,7 @@ Before you begin, ensure you have the following installed:
 - **Python 3.x**: Install it from [python.org](https://www.python.org/downloads/)
 - **MySQL server**: Download from [MySQL](https://dev.mysql.com/downloads/installer/)
 - **pip** (Python package installer): Typically comes with Python installation.
+- **PyCharm Community Edition**: Download from [JetBrains PyCharm](https://www.jetbrains.com/pycharm/) to work on this project in an integrated development environment (IDE).
 
 ## How it Works
 
