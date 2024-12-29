@@ -23,3 +23,27 @@ Before you begin, ensure you have the following installed:
 - Python 3.x
 - MySQL server
 - pip (Python package installer)
+
+## How it Works
+
+1. **Database Creation**: At the beginning, a MySQL database named `blood_group` is created, and the necessary table `donors` is set up with the following columns:
+   - `Name`
+   - `Department`
+   - `USN`
+   - `Year`
+   - `BloodGroup`
+   - `Contact`
+   - `Email`
+   - `Age`
+
+2. **User Fills in the Form**: The user enters their blood donation details (name, department, USN, year, blood group, contact, email, age) on the web form.
+
+3. **Form Submission**: When the user clicks "Submit," the form data is sent via a POST request to the `/submit` endpoint.
+
+4. **Data Processing**: The Flask app processes the submitted data:
+   - It retrieves the form values from the request.
+   - Validates the data (e.g., checks for duplicate USN).
+
+5. **Database Storage**: The app connects to the MySQL database and stores the form data in the `donors` table.
+
+6. **Confirmation**: After successful data insertion, a confirmation message is returned and displayed to the user, thanking them for their blood donation.
